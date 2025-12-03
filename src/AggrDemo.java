@@ -36,5 +36,7 @@ public class AggrDemo {
             System.out.println("Sum of GPA : " + rs.getDouble("Sum"));
 
         }
+
+        con.close();
     }
 }
