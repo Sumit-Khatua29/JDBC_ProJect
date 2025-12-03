@@ -25,8 +25,8 @@ public class CrudOps {
 
         //4. create a table // should be run only once
         String cq = "create table student1(sid int primary key, sname varchar(50), cgpa float)";
-        int x = st.executeUpdate(cq);
-        if (x == 0)
+        int x1 = st.executeUpdate(cq);
+        if (x1 == 0)
         {
             System.out.println("Table Created");
         }
